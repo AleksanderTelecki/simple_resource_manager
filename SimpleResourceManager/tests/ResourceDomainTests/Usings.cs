@@ -1,0 +1,12 @@
+global using NUnit.Framework;
+global using FluentAssertions;
+global using ResourceDomainTests.Builders.Models;
+global using Resource.Domain.CommandHandlers;
+global using Resource.Domain.Repositories;
+global using Resource.Messages.Commands;
+global using Moq;
+global using MockQueryable.Moq;
+global using Resource.Domain.Entity;
+global using Resource.Domain.Options;
+global using Microsoft.AspNetCore.Identity;
+global using Microsoft.Extensions.Options;
